@@ -83,7 +83,7 @@ com.ennoukra.gestionnairetaches/
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/ennoukra/gestion-taches-android.git
+   git clone hhttps://github.com/ABDONOKRA/developementmobile-lab19
    ```
 2. Ouvrez le projet dans Android Studio.
 3. Attendez la synchronisation Gradle.
