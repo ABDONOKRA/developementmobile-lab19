@@ -90,6 +90,7 @@ com.ennoukra.gestionnairetaches/
 4. Lancez l'application sur un émulateur ou un appareil physique (API >= 24).
 
 ---
+<img width="490" height="930" alt="image" src="https://github.com/user-attachments/assets/af974831-7cd9-4231-bfae-16420dd73086" />
 
 ## Utilisation
 
