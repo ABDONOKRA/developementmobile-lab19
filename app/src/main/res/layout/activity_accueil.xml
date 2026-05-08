@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/couleurFond">
+
+    <EditText
+        android:id="@+id/champLibelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/indice_libelle"
+        android:inputType="text"
+        android:maxLength="60"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/champContenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/indice_contenu"
+        android:inputType="textMultiLine"
+        android:maxLength="300"
+        android:minLines="2"
+        android:gravity="top"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ajouter"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnSupprimerTout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_supprimer_tout"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listeTaches"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GestionTâches</string>
+    <string name="indice_libelle">Intitulé de la tâche</string>
+    <string name="indice_contenu">Description détaillée</string>
+    <string name="btn_ajouter">Ajouter la tâche</string>
+    <string name="btn_supprimer_tout">Tout supprimer</string>
+    <string name="erreur_champs_vides">Veuillez remplir tous les champs.</string>
+    <string name="erreur_libelle_long">L\'intitulé ne doit pas dépasser 60 caractères.</string>
+    <string name="erreur_contenu_long">La description ne doit pas dépasser 300 caractères.</string>
+    <string name="titre_confirmation">Confirmation</string>
+    <string name="message_confirmation_suppression">Voulez-vous vraiment supprimer toutes les tâches ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+</resources>
